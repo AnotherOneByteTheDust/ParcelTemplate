@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html -d build",
     "clean": "rm -rf node_modules build dist .cache",
     "deploy": "gh-pages -d build",
-    "lint:css": "stylelint 'src/**/*.pcss'",
+    "lint:css": "stylelint 'src/**/*.css'",
     "lint:css:fix": "npm run lint:css -- --fix",
     "lint:js": "eslint src/ --ext .js,.jsx",
     "lint:js:fix": "npm run lint:js -- --fix"
